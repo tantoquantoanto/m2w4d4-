@@ -87,24 +87,20 @@ const jobs = [
   ];
   
   /*QUI HO COMMENTATO LA FUNZIONE CHE HO USATO PER LA SOLA PRIMA PARTE DELL?ESERCIZIO; CHE HO SUCCESSIVAMENTE IMPLEMENTATO PER LA SECONDA PARTE
-  let job1 = {title: "marketing", location: ""};
-  let gotJobs = [];
-  
-  
+ 
+ 
   function giveJobs(title, location) {
-      
-      let gotJobs = jobs.filter(job =>
-          (title.toLowerCase() === "" || job.title.toLowerCase().includes(title.toLowerCase())) &&
-          (job.location.toLowerCase().includes(location.toLowerCase()) || location.toLowerCase() === ""));
-          console.log(gotJobs.length)
-          return gotJobs
-          }
-         
-          
-       
-          
-          
-          console.log(giveJobs(job1.title, job1.location));
+  let gotJobs = jobs.filter(
+    (job) =>
+      job.title.toLowerCase().includes(title.toLowerCase()) &&
+      job.location.toLowerCase().includes(location.toLowerCase())
+  );
+  console.log(gotJobs.length);
+  return gotJobs;
+}
+
+
+console.log(giveJobs("dev", "us"));
    */
   
   let h3 = document.querySelector(".h3");
