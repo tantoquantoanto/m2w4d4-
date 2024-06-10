@@ -9,8 +9,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px ;
+    padding: 80px ;
     height: 50px;
+    width: 80%;
+}
+.header img {
+    height: 80px;
+    width: 120px;
+    margin-left: 150px;
 }
 .headerlist {
     display: flex;
