@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px ;
+    height: 50px;
+}
+.headerlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+    
+
+}
+
+.headerlist li {
+    margin: 10px;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 98%;
+    height: 400px;
+    background-image: url(colors5.png);
+    background-size: cover;
+
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    
+
+}
+
+.subtitle {
+    margin-top: 30px;
+    color: rgb(185, 14, 185);
+    font-size: 20px;
+}
+
+.input {
+    border-radius: 20px;
+    background-color:rgb(225, 111, 225);
+    color:black;
+    height: 30px;
+    padding: 2px;
+    margin: 20px;
+    width: 200px;
+    border: 2px solid black;
+    
+    
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+    
+}
+
+#search {
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+
+}
+
+.form {
+    margin-top: 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buttonclicked {
+    background-color: rgb(185, 14, 185);
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.listcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(185, 14, 185);
+    margin-top: 50px;
+    width: 400px;
+    list-style: none;
+    background-image: url(colors5.png);
+    background-size: cover;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bolder;
+    font
+
+    
+}
+.h3 {
+    display: none;
+}
+
+.h3-visible {
+    color: rgb(185, 14, 185);
+    display: inline;
+    margin-top: 20px;
+}
+
+.result {
+    color: white;
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+
+}

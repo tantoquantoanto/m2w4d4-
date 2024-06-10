@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="" alt="" />
+      <ul class="headerlist">
+        <li>Chi siamo</li>
+        <li>Contatti</li>
+        <li>Blog</li>
+        <li>Accedi</li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="title-subtitle">
+        <h1 class="title">FIND THE PERFECT JOB</h1>
+      </div>
+      <p class="subtitle">
+        Inserisci qui il lavoro che cerchi e dove vorresti lavorare
+      </p>
+
+      <div class="form">
+        <div class="inputs">
+          <label for="usertitle">Title:</label>
+          <input class="input" placeholder="title" type="text" id="usertitle" />
+          <label for="userlocation">Location:</label>
+          <input
+            class="input"
+            placeholder="location"
+            type="text"
+            id="userlocation"
+          />
+        </div>
+        <button type="submit" id="search">CERCA</button>
+        <h3 class="h3"></h3>
+      </div>
+      <div class="listcontainer">
+        <ul id="userjobs"></ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
