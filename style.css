@@ -42,9 +42,9 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    width: 98%;
+    width: 80%;
     height: 400px;
-    background-image: url(colors5.png);
+    background-image: url(background3.jpeg);
     background-size: cover;
 
 }
@@ -58,13 +58,13 @@ body {
 
 .subtitle {
     margin-top: 30px;
-    color: rgb(185, 14, 185);
+    color: rgb(79, 79, 197);
     font-size: 20px;
 }
 
 .input {
     border-radius: 20px;
-    background-color:rgb(225, 111, 225);
+    background-color:rgb(79, 79, 197);
     color:black;
     height: 30px;
     padding: 2px;
@@ -100,7 +100,7 @@ body {
 }
 
 .buttonclicked {
-    background-color: rgb(185, 14, 185);
+    background-color: rgb(79, 79, 197);
     color: white;
     width: 150px;
     height: 50px;
@@ -112,14 +112,14 @@ body {
     align-items: start;
     justify-content: center;
     border-radius: 20px;
-    border: 2px solid rgb(185, 14, 185);
+    border: 2px solid rgb(79, 79, 197);
     margin-top: 50px;
     width: 400px;
     list-style: none;
-    background-image: url(colors5.png);
+    background-image: url(backgroundok.jpg);
     background-size: cover;
     margin-bottom: 30px;
-    color: white;
+    color: black;
     font-weight: bolder;
     font
 
@@ -130,13 +130,13 @@ body {
 }
 
 .h3-visible {
-    color: rgb(185, 14, 185);
+    color:rgb(79, 79, 197);
     display: inline;
     margin-top: 20px;
 }
 
 .result {
-    color: white;
+    color: black;
     list-style: none;
     margin: 20px;
     font-weight: bold;
